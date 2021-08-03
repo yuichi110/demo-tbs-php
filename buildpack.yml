@@ -1,3 +1,4 @@
+---
 php:
  # this allows you to specify a version constaint for the `php` dependency
  # any valid semver constaints (e.g. 7.* and 7.4.*) are also acceptable
@@ -21,10 +22,3 @@ php:
  # default: admin@localhost
  serveradmin: admin@localhost
 
- # default: redis-sessions
- redis:
-   session_store_service_name: redis-sessions
-
- # default: memcached-sessions
- memcached:
-   session_store_service_name: memcached-sessions
